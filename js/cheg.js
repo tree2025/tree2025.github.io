@@ -1,4 +1,4 @@
-let snowmax=40
+let snowmax=20
 let snowcolor=new Array("#b9dff5","#7fc7ff","#7fb1ff","#7fc7ff","#b9dff5")
 let snowtype=new Array("Times")
 let snowletter="&#10052;"
@@ -58,7 +58,7 @@ function movesnow() {
             snow[i].posy=0
         }
     }
-    let timer=setTimeout("movesnow()",50)
+    setTimeout("movesnow()",100);
 }
  
 for (i=0;i<=snowmax;i++) {
